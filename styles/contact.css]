@@ -1,0 +1,38 @@
+.contact-form {
+  padding: 4rem 1rem;
+  background-color: #d7d9dc;
+}
+.contact-form .container {
+  margin: 0 auto;
+}
+.contact-form .contact-options {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.contact-form .contact-options .contact-option {
+  display: flex;
+  align-items: center;
+  padding: 0 1rem;
+}
+.contact-form .contact-options .contact-option .icon {
+  font-size: 2rem;
+  color: #0B151F;
+  height: 1rem;
+  outline: 1px red solid;
+  width: 1rem;
+}
+.contact-form .contact-options .contact-option .icon i {
+  color: #0B151F;
+  size: 1rem;
+}
+.contact-form .contact-options .contact-option .data a {
+  text-decoration: none;
+  color: #0b151f;
+  font-weight: 500;
+  font-size: 1.1rem;
+}
+
+/*# sourceMappingURL=contact.css%5D.map */
