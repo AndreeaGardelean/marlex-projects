@@ -65,7 +65,7 @@ h1, h2, h3 {
   width: auto;
 }
 .header .nav {
-  width: 30%;
+  width: 35%;
 }
 .header .nav ul {
   display: flex;
@@ -98,6 +98,31 @@ h1, h2, h3 {
 }
 .header .nav ul li a:hover::after {
   width: 100%;
+}
+@media (max-width: 1600px) {
+  .header .nav {
+    width: 40%;
+  }
+}
+@media (max-width: 1400px) {
+  .header .nav {
+    width: 45%;
+  }
+}
+@media (max-width: 1200px) {
+  .header .nav {
+    width: 50%;
+  }
+}
+@media (max-width: 1000px) {
+  .header .nav {
+    width: 55%;
+  }
+}
+@media (max-width: 1000px) {
+  .header .nav {
+    display: none;
+  }
 }
 
 .footer {

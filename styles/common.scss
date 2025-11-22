@@ -73,7 +73,7 @@ h1, h2, h3 {
 }
 
   .nav {
-    width: 30%;
+    width: 35%;
     ul {
       display: flex;
       justify-content: space-between;
@@ -110,10 +110,40 @@ h1, h2, h3 {
     .nav ul li a:hover::after {
         width: 100%;
     }
+
+    @media (max-width: 1600px) {
+      .nav {
+        width: 40%;
+      }
+    }
+
+    @media (max-width: 1400px) {
+      .nav {
+        width: 45%;
+      }
+    }
+
+    @media (max-width: 1200px) {
+      .nav {
+        width: 50%;
+      }
+    }
+
+    @media (max-width: 1000px) {
+      .nav {
+        width: 55%;
+      }
+    }
+
+    @media (max-width: 1000px) {
+      .nav {
+        display: none;
+      }
+    }
 }
 
 .footer {
-  background-color: #0B151F; // dark footer background matching header
+  background-color: #0B151F;
   color: #dfe6f3;
   text-align: center;
   padding: 2rem 1rem;
